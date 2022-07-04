@@ -2,10 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.top-banner h1 {
+    font-size: 50px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .orange-color {
@@ -16,13 +21,13 @@ p {
     color: rgb(104, 101, 101);
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .top-banner {
-    justify-content: space-between;
+
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 
@@ -44,13 +49,14 @@ section {
 }
 
 .half-width {
-    width: 47%;
-    padding-left: 5%;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
 
 }
 
 .half-width img {
-    width: 95%;
+    width: 100%;
 
 }
 
@@ -59,4 +65,40 @@ section {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+
+.middle-banner p {
+    width: 93%;
+}
+
+.experience-section {}
+
+.full-stack {
+    width: 45%;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    border-left: 8px solid orangered;
+    box-shadow: 0px 0px 25px 6px #888888;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: middle;
+}
+
+.baby-web {
+    width: 45%;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    border-left: 8px solid blue;
+    box-shadow: 0px 0px 25px 6px #888888;
+    margin-right: 70px;
+}
+
+.experience-section h3 {
+    color: orange;
 }
